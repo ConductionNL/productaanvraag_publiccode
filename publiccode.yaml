@@ -1,0 +1,39 @@
+publiccodeYmlVersion: "0.1"
+
+name: "Product-aanvragen-api"
+url: "https://github.com/VNG-Realisatie/gemma-zaken" #TODO 
+releaseDate: "2022-04-05"
+
+softwareType: configurationFiles
+
+inputTypes:
+  - application/json #TODO 
+
+outputTypes:
+  - application/json #TODO 
+
+platforms:
+  - web
+  
+categories:
+  - collaboration
+  - it-development
+  
+developmentStatus: beta
+
+description:
+  nl:
+    shortDescription: "Een API om contactmomenten met klanten te registreren." #TODO 
+    documentation: 'https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/VNG-Realisatie/contactmomenten-api/master/src/openapi.yaml' #TODO 
+    apiDocumentation: 'https://raw.githubusercontent.com/VNG-Realisatie/contactmomenten-api/master/src/openapi.yaml' #TODO 
+    testDataLocation: 'https://raw.githubusercontent.com/ConductionNL/contactmomenten_publiccode/main/data/contactmomenten.json' #TODO 
+  en:
+    shortDescription: "An API to register contact moments with clients." #TODO 
+    documentation: 'https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/VNG-Realisatie/contactmomenten-api/master/src/openapi.yaml' #TODO 
+    apiDocumentation: 'https://raw.githubusercontent.com/VNG-Realisatie/contactmomenten-api/master/src/openapi.yaml' #TODO 
+    testDataLocation: 'https://raw.githubusercontent.com/ConductionNL/contactmomenten_publiccode/main/data/contactmomenten.json' #TODO 
+
+dependsOn:
+  open:
+    - name: common-gateway
+      versionMin: 1.0.0
